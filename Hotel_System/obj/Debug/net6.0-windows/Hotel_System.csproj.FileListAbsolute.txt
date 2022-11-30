@@ -17,3 +17,28 @@ C:\Users\Windows 10 Pro\source\repos\C#\Hotel management\Hotel_System\Hotel_Syst
 C:\Users\Windows 10 Pro\source\repos\C#\Hotel management\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\ref\Hotel_System.dll
 C:\Users\Windows 10 Pro\source\repos\C#\Hotel management\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.FormDashBoard.resources
 C:\Users\Windows 10 Pro\source\repos\C#\Hotel management\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.User_Control.UserControlBooking.resources
+C:\Users\Windows 10 Pro\source\repos\C#\Hotel management\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.User_Control.UserControlClient.resources
+C:\Users\Windows 10 Pro\source\repos\C#\Hotel management\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.User_Control.UserControlRoom.resources
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\bin\Debug\net6.0-windows\Hotel_System.exe
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\bin\Debug\net6.0-windows\Hotel_System.deps.json
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\bin\Debug\net6.0-windows\Hotel_System.runtimeconfig.json
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\bin\Debug\net6.0-windows\Hotel_System.dll
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\bin\Debug\net6.0-windows\Hotel_System.pdb
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.csproj.AssemblyReference.cache
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.FormInterface.resources
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.FormDashBoard.resources
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.FormLogIn.resources
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.Properties.Resources.resources
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.User_Control.UserControlBooking.resources
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.User_Control.UserControlClient.resources
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.User_Control.UserControlRoom.resources
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.csproj.GenerateResource.cache
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.AssemblyInfoInputs.cache
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.AssemblyInfo.cs
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.dll
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\refint\Hotel_System.dll
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.pdb
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\Hotel_System.genruntimeconfig.cache
+C:\Users\Windows 10 Pro\Desktop\Hotel_System\Hotel_System\obj\Debug\net6.0-windows\ref\Hotel_System.dll

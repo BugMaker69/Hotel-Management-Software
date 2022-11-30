@@ -22,7 +22,7 @@ namespace Hotel_System.User_Control
         {
             txtUser.Clear();
             txtName.Clear();
-            txtUser.Clear();
+            txtEmail.Clear();
             txtAddress.Clear();
             txtCity.Clear();
 
@@ -45,6 +45,11 @@ namespace Hotel_System.User_Control
         private void button1_Click(object sender, EventArgs e)
         {
             //here is the code for submit after connect the database :)
+            
+            DGVcust.Rows.Add(txtUser.Text,txtName.Text,comRoom.Text,dateIn.Value,dateOut.Value);
+            clear();
+            MessageBox.Show("The Date Added Successfully..");
+
         }
 
         private void DGVcust_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -68,6 +73,49 @@ namespace Hotel_System.User_Control
         private void tabReserv_Leave(object sender, EventArgs e)
         {
             clear();
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comRoom_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comRoom.SelectedIndex == 0)
+            {
+                lblCost.Text = "2000L.E";
+                panel1.Show();
+            }
+
+            if (comRoom.SelectedIndex == 1)
+            {
+                panel1.Hide();
+                lblCost.Text = "500L.E";
+            }
+
+            if (comRoom.SelectedIndex == 2)
+            {
+                lblCost.Text = "1500L.E";
+                panel1.Show();
+            }
+
+            if (comRoom.SelectedIndex == 3)
+            {
+                lblCost.Text = "5000L.E";
+                panel1.Show();
+                numInd.Maximum = 2;
+            }
+        }
+
+        private void lblCost_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            tabReserv.Show();
         }
     }
 }

@@ -63,22 +63,33 @@ namespace Hotel_System
             MovePanel(btnBook);
             userControlBooking1.clear();
             userControlBooking1.Show();
+            userControlClient1.Hide();
+            userControlRoom1.Hide();
             
         }
 
         private void btnCust_Click(object sender, EventArgs e)
         {
             MovePanel(btnCust);
+            userControlBooking1.Hide();
+            userControlClient1.Show();
+            userControlRoom1.Hide();
         }
 
         private void btnEmp_Click(object sender, EventArgs e)
         {
             MovePanel(btnEmp);
+            userControlBooking1.Hide();
+            userControlClient1.Hide();
+            userControlRoom1.Hide();
         }
 
         private void btnRoom_Click(object sender, EventArgs e)
         {
             MovePanel(btnRoom);
+            userControlBooking1.Hide();
+            userControlClient1.Hide();
+            userControlRoom1.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -103,8 +114,9 @@ namespace Hotel_System
 
         }
 
-       
+        private void userControlBooking1_Load(object sender, EventArgs e)
+        {
 
-        
+        }
     }
 }

@@ -30,11 +30,19 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabReserv = new System.Windows.Forms.TabPage();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.numInd = new System.Windows.Forms.NumericUpDown();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.numDays = new System.Windows.Forms.NumericUpDown();
+            this.lblCost = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.dateOut = new System.Windows.Forms.DateTimePicker();
             this.dateIn = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -60,17 +68,26 @@
             this.Search = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.DGVcust = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabReserv.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numInd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numDays)).BeginInit();
             this.tabView.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVcust)).BeginInit();
+            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -78,6 +95,7 @@
             this.tabControl1.Alignment = System.Windows.Forms.TabAlignment.Bottom;
             this.tabControl1.Controls.Add(this.tabReserv);
             this.tabControl1.Controls.Add(this.tabView);
+            this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
@@ -87,11 +105,17 @@
             // 
             // tabReserv
             // 
+            this.tabReserv.Controls.Add(this.panel1);
+            this.tabReserv.Controls.Add(this.label18);
+            this.tabReserv.Controls.Add(this.numDays);
+            this.tabReserv.Controls.Add(this.lblCost);
+            this.tabReserv.Controls.Add(this.label17);
+            this.tabReserv.Controls.Add(this.label16);
+            this.tabReserv.Controls.Add(this.label15);
             this.tabReserv.Controls.Add(this.maskedTextBox1);
             this.tabReserv.Controls.Add(this.dateOut);
             this.tabReserv.Controls.Add(this.dateIn);
             this.tabReserv.Controls.Add(this.dateTimePicker3);
-            this.tabReserv.Controls.Add(this.numericUpDown1);
             this.tabReserv.Controls.Add(this.txtUser);
             this.tabReserv.Controls.Add(this.label14);
             this.tabReserv.Controls.Add(this.label11);
@@ -122,6 +146,111 @@
             this.tabReserv.UseVisualStyleBackColor = true;
             this.tabReserv.Leave += new System.EventHandler(this.tabReserv_Leave);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.numInd);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(547, 162);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(199, 93);
+            this.panel1.TabIndex = 114;
+            // 
+            // numInd
+            // 
+            this.numInd.Increment = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.numInd.Location = new System.Drawing.Point(10, 45);
+            this.numInd.Maximum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.numInd.Name = "numInd";
+            this.numInd.Size = new System.Drawing.Size(186, 27);
+            this.numInd.TabIndex = 105;
+            this.numInd.Value = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(4, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(153, 23);
+            this.label1.TabIndex = 107;
+            this.label1.Text = "No. Of Individual:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(786, 172);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(111, 23);
+            this.label18.TabIndex = 113;
+            this.label18.Text = "No. Of Days:";
+            // 
+            // numDays
+            // 
+            this.numDays.Location = new System.Drawing.Point(786, 207);
+            this.numDays.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.numDays.Name = "numDays";
+            this.numDays.Size = new System.Drawing.Size(186, 27);
+            this.numDays.TabIndex = 112;
+            // 
+            // lblCost
+            // 
+            this.lblCost.AutoSize = true;
+            this.lblCost.Font = new System.Drawing.Font("Segoe UI Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCost.Location = new System.Drawing.Point(735, 312);
+            this.lblCost.Name = "lblCost";
+            this.lblCost.Size = new System.Drawing.Size(58, 20);
+            this.lblCost.TabIndex = 111;
+            this.lblCost.Text = "the cost";
+            this.lblCost.Click += new System.EventHandler(this.lblCost_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(705, 274);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(165, 23);
+            this.label17.TabIndex = 110;
+            this.label17.Text = "The Cost Per Night:";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label16.Location = new System.Drawing.Point(786, 78);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(57, 23);
+            this.label16.TabIndex = 109;
+            this.label16.Text = "Floor:";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label15.Location = new System.Drawing.Point(547, 66);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(105, 23);
+            this.label15.TabIndex = 108;
+            this.label15.Text = "Room Type:";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
+            // 
             // maskedTextBox1
             // 
             this.maskedTextBox1.Location = new System.Drawing.Point(29, 293);
@@ -132,14 +261,14 @@
             // 
             // dateOut
             // 
-            this.dateOut.Location = new System.Drawing.Point(801, 227);
+            this.dateOut.Location = new System.Drawing.Point(781, 414);
             this.dateOut.Name = "dateOut";
             this.dateOut.Size = new System.Drawing.Size(240, 27);
             this.dateOut.TabIndex = 81;
             // 
             // dateIn
             // 
-            this.dateIn.Location = new System.Drawing.Point(549, 227);
+            this.dateIn.Location = new System.Drawing.Point(529, 414);
             this.dateIn.Name = "dateIn";
             this.dateIn.Size = new System.Drawing.Size(246, 27);
             this.dateIn.TabIndex = 82;
@@ -150,23 +279,6 @@
             this.dateTimePicker3.Name = "dateTimePicker3";
             this.dateTimePicker3.Size = new System.Drawing.Size(250, 27);
             this.dateTimePicker3.TabIndex = 83;
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Increment = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Location = new System.Drawing.Point(572, 122);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            4,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(186, 27);
-            this.numericUpDown1.TabIndex = 105;
             // 
             // txtUser
             // 
@@ -203,7 +315,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Stencil", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(549, 499);
+            this.button1.Location = new System.Drawing.Point(561, 509);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(411, 82);
             this.button1.TabIndex = 101;
@@ -215,7 +327,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(828, 183);
+            this.label10.Location = new System.Drawing.Point(781, 370);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(97, 23);
             this.label10.TabIndex = 100;
@@ -225,7 +337,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(549, 183);
+            this.label9.Location = new System.Drawing.Point(542, 370);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(101, 23);
             this.label9.TabIndex = 99;
@@ -240,7 +352,7 @@
             "3",
             "4",
             "5"});
-            this.comboBox5.Location = new System.Drawing.Point(807, 74);
+            this.comboBox5.Location = new System.Drawing.Point(786, 112);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(176, 28);
             this.comboBox5.TabIndex = 98;
@@ -249,20 +361,23 @@
             // 
             this.comRoom.FormattingEnabled = true;
             this.comRoom.Items.AddRange(new object[] {
-            "VIP",
             "Family Suite",
+            "Single",
             "Standart",
-            "Single"});
-            this.comRoom.Location = new System.Drawing.Point(572, 74);
+            "VIP"});
+            this.comRoom.Location = new System.Drawing.Point(547, 112);
             this.comRoom.Name = "comRoom";
             this.comRoom.Size = new System.Drawing.Size(186, 28);
+            this.comRoom.Sorted = true;
             this.comRoom.TabIndex = 97;
+            this.comRoom.SelectedIndexChanged += new System.EventHandler(this.comRoom_SelectedIndexChanged);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(572, 35);
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(198)))), ((int)(((byte)(218)))));
+            this.label8.Location = new System.Drawing.Point(549, 13);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(145, 23);
             this.label8.TabIndex = 96;
@@ -393,7 +508,7 @@
             // 
             // Search
             // 
-            this.Search.Location = new System.Drawing.Point(157, 93);
+            this.Search.Location = new System.Drawing.Point(120, 94);
             this.Search.Name = "Search";
             this.Search.Size = new System.Drawing.Size(298, 27);
             this.Search.TabIndex = 12;
@@ -417,13 +532,12 @@
             this.DGVcust.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DGVcust.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVcust.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
             this.Column2,
             this.Column3,
             this.Column4,
             this.Column5,
-            this.Column7});
-            this.DGVcust.Location = new System.Drawing.Point(66, 145);
+            this.Column6});
+            this.DGVcust.Location = new System.Drawing.Point(51, 145);
             this.DGVcust.Name = "DGVcust";
             this.DGVcust.ReadOnly = true;
             this.DGVcust.RowHeadersWidth = 51;
@@ -433,53 +547,120 @@
             this.DGVcust.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGVcust_CellClick);
             this.DGVcust.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGVcust_CellContentClick);
             // 
-            // Column1
-            // 
-            this.Column1.DataPropertyName = "DataID";
-            this.Column1.HeaderText = "User Name";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
             // Column2
             // 
-            this.Column2.DataPropertyName = "DataName";
-            this.Column2.HeaderText = "Name";
+            this.Column2.HeaderText = "User Name";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
             // 
             // Column3
             // 
-            this.Column3.DataPropertyName = "DataRoom";
-            this.Column3.HeaderText = "Room";
+            this.Column3.HeaderText = "Name";
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
             // 
             // Column4
             // 
-            this.Column4.DataPropertyName = "DataInDate";
-            this.Column4.HeaderText = "Check In Date";
+            this.Column4.HeaderText = "Room Type";
             this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             // 
             // Column5
             // 
-            this.Column5.DataPropertyName = "DataOutDate";
-            this.Column5.HeaderText = "Check Out Date";
+            this.Column5.HeaderText = "Check In Date";
             this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
             // 
-            // Column7
+            // Column6
             // 
-            this.Column7.DataPropertyName = "DataCost";
-            this.Column7.HeaderText = "Total Cost";
-            this.Column7.MinimumWidth = 6;
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
+            this.Column6.HeaderText = "Check Out Date";
+            this.Column6.MinimumWidth = 6;
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "DataID";
+            this.Column1.HeaderText = "User Name";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 171;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.button3);
+            this.tabPage1.Controls.Add(this.button2);
+            this.tabPage1.Controls.Add(this.textBox1);
+            this.tabPage1.Controls.Add(this.label20);
+            this.tabPage1.Controls.Add(this.label19);
+            this.tabPage1.Location = new System.Drawing.Point(4, 4);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1079, 618);
+            this.tabPage1.TabIndex = 2;
+            this.tabPage1.Text = "Update and Delete";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(198)))), ((int)(((byte)(218)))));
+            this.label19.Location = new System.Drawing.Point(6, 3);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(279, 24);
+            this.label19.TabIndex = 12;
+            this.label19.Text = "Update Or Delete User:";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label20.Location = new System.Drawing.Point(97, 127);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(144, 22);
+            this.label20.TabIndex = 13;
+            this.label20.Text = "Enter UserName:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(107, 172);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(298, 27);
+            this.textBox1.TabIndex = 14;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(198)))), ((int)(((byte)(218)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(107, 227);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(109, 51);
+            this.button2.TabIndex = 102;
+            this.button2.Text = "Update";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Red;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(248, 227);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(109, 51);
+            this.button3.TabIndex = 103;
+            this.button3.Text = "Delete";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // UserControlBooking
             // 
@@ -492,10 +673,15 @@
             this.tabControl1.ResumeLayout(false);
             this.tabReserv.ResumeLayout(false);
             this.tabReserv.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numInd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numDays)).EndInit();
             this.tabView.ResumeLayout(false);
             this.tabView.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVcust)).EndInit();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -509,7 +695,7 @@
         private DateTimePicker dateOut;
         private DateTimePicker dateIn;
         private DateTimePicker dateTimePicker3;
-        private NumericUpDown numericUpDown1;
+        private NumericUpDown numInd;
         private TextBox txtUser;
         private Label label14;
         private Label label11;
@@ -534,11 +720,25 @@
         private TextBox Search;
         private Label label13;
         private DataGridView DGVcust;
-        private DataGridViewTextBoxColumn Column1;
+        private Label lblCost;
+        private Label label17;
+        private Label label16;
+        private Label label15;
+        private Label label1;
+        private Label label18;
+        private NumericUpDown numDays;
+        private Panel panel1;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column4;
         private DataGridViewTextBoxColumn Column5;
-        private DataGridViewTextBoxColumn Column7;
+        private DataGridViewTextBoxColumn Column6;
+        private TabPage tabPage1;
+        private Button button3;
+        private Button button2;
+        private TextBox textBox1;
+        private Label label20;
+        private Label label19;
     }
 }

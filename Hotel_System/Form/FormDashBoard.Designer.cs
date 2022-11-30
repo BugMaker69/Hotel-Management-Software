@@ -48,6 +48,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.userControlBooking1 = new Hotel_System.User_Control.UserControlBooking();
+            this.userControlClient1 = new Hotel_System.User_Control.UserControlClient();
+            this.userControlRoom1 = new Hotel_System.User_Control.UserControlRoom();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -77,7 +79,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(251, 734);
+            this.panel1.Size = new System.Drawing.Size(251, 807);
             this.panel1.TabIndex = 0;
             // 
             // panel4
@@ -85,7 +87,7 @@
             this.panel4.Controls.Add(this.pictureBox1);
             this.panel4.Controls.Add(this.linkLog);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 677);
+            this.panel4.Location = new System.Drawing.Point(0, 750);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(251, 57);
             this.panel4.TabIndex = 1;
@@ -267,7 +269,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(251, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1190, 58);
+            this.panel3.Size = new System.Drawing.Size(1365, 58);
             this.panel3.TabIndex = 0;
             // 
             // label1
@@ -283,20 +285,44 @@
             // 
             // userControlBooking1
             // 
+            this.userControlBooking1.AutoSize = true;
             this.userControlBooking1.BackColor = System.Drawing.Color.White;
+            this.userControlBooking1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.userControlBooking1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.userControlBooking1.Location = new System.Drawing.Point(251, 58);
             this.userControlBooking1.Name = "userControlBooking1";
-            this.userControlBooking1.Size = new System.Drawing.Size(1190, 676);
-            this.userControlBooking1.TabIndex = 1;
+            this.userControlBooking1.Size = new System.Drawing.Size(1365, 749);
+            this.userControlBooking1.TabIndex = 4;
             this.userControlBooking1.Visible = false;
+            // 
+            // userControlClient1
+            // 
+            this.userControlClient1.BackColor = System.Drawing.Color.White;
+            this.userControlClient1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControlClient1.Location = new System.Drawing.Point(251, 58);
+            this.userControlClient1.Name = "userControlClient1";
+            this.userControlClient1.Size = new System.Drawing.Size(1365, 749);
+            this.userControlClient1.TabIndex = 5;
+            this.userControlClient1.Visible = false;
+            // 
+            // userControlRoom1
+            // 
+            this.userControlRoom1.BackColor = System.Drawing.Color.White;
+            this.userControlRoom1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userControlRoom1.Location = new System.Drawing.Point(251, 58);
+            this.userControlRoom1.Name = "userControlRoom1";
+            this.userControlRoom1.Size = new System.Drawing.Size(1365, 749);
+            this.userControlRoom1.TabIndex = 6;
+            this.userControlRoom1.Visible = false;
             // 
             // FormDashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1441, 734);
+            this.ClientSize = new System.Drawing.Size(1616, 807);
+            this.Controls.Add(this.userControlRoom1);
+            this.Controls.Add(this.userControlClient1);
             this.Controls.Add(this.userControlBooking1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -318,6 +344,7 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -342,5 +369,7 @@
         private Button btnCust;
         private Button button5;
         private User_Control.UserControlBooking userControlBooking1;
+        private User_Control.UserControlClient userControlClient1;
+        private User_Control.UserControlRoom userControlRoom1;
     }
 }
